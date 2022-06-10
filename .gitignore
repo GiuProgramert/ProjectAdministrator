@@ -1,2 +1,4 @@
 /.idea
-/__pychache__
+/.vim
+__pycache__/
+*.pdf
