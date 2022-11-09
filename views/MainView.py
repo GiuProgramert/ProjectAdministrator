@@ -2,7 +2,6 @@ from .ProyectosView import ProyectosView
 from tkinter import *
 from tkinter import ttk
 
-
 class MainView:
     """Ventana principal de la aplicacion"""
     def __init__(self, ventana, connection):

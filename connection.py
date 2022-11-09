@@ -7,7 +7,7 @@ class Connection:
         """Recibe el nombre del archivo que 
         hace referencia a la base de datos"""
         try:
-            self.connection = sqlite3.connect(db_name) # Crea la conexión con la base de datos
+            self.connection = sqlite3.connect(db_name)  # Crea la conexión con la base de datos
             self.cursor = self.connection.cursor() # El cursor sirve para hacer las consultas en la base de datos
         except Exception as ex:
             print("Error to search the DB: ", ex)
@@ -29,7 +29,7 @@ class Connection:
             # ejecuta la query
             self.cursor.execute(query, (*values, id))
             self.connection.commit()
-
+                        
             print(f"Actualizado correctamente en la tabla {table}")
             return True
         except Exception as ex:

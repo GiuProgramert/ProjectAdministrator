@@ -6,6 +6,7 @@ from datetime import datetime
 from helpers.LoadTableData import LoadTableData
 from helpers.validaciones import validar_campos_vacios, validar_fech_inicio_proyecto, validar_maximos_elementos
 
+
 class CrearProyectoForm(LoadTableData):
     def __init__(self, ventana_padre, connection, tabla):
         """

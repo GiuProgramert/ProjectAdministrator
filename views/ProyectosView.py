@@ -9,6 +9,7 @@ from datetime import datetime
 from helpers.LoadTableData import LoadTableData
 from clases.ClaseFechasLaborales import *
 
+
 class ProyectosView(LoadTableData):
     def __init__(self, ventana_padre, connection):
         """
